@@ -1,4 +1,4 @@
 git:
   cmd.run:
-    - name:
-    apt-get install git
+    - name: |
+    apt-get -y install git
