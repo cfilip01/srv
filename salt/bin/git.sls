@@ -1,7 +1,3 @@
 git:
-  pkg:
-    - installed
-  service.running:
-    - enable: True
-    - require:
-      - pkg: git
+  - cmd.run:
+    apt-get install git
