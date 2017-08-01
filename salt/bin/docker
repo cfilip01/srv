@@ -8,6 +8,3 @@ upgrade_docker:
        add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu yakkety stable"
        apt-get -y update
        apt-get -y install docker-ce
-user_cosmin:
-  user.present:
-    - name: neverfail
