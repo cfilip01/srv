@@ -11,7 +11,7 @@ Create new file:
     - mode: '644'
 
 Create new folder:
-  file.recurse:
+  file.directory:
     - name: /opt/logguri
     - user: vagrant
     - mode: '777'
