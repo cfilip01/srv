@@ -1,4 +1,4 @@
 Install Java:
   pkg.installed:
-    - pkg:
+    - pkgs:
       - java.jdk8
