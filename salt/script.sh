@@ -1,11 +1,6 @@
-#!/bin/sh
-read -p "enter folder name: " fol
-folder = "$fol"
-if [[ -d $folder ]]; then
-  if mkdir "$HOME/cosmin"; then
-    echo "created directory"
-else
-  echo "could not create directory"
-  exit 1
-  fi
+#!/bin/bash
+if [[ -d $HOME/cosmin ]]; then
+  echo "directory exists"
 fi
+else
+  mkdir -p $HOME/cosmin
