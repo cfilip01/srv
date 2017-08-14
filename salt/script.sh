@@ -1,2 +1,2 @@
 #!/bin/sh
-echo ${date}: $* >> ~/notes.txt
+echo $(date): $* >> ~/notes.txt
