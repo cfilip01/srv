@@ -1,8 +1,9 @@
 #!/bin/sh
 folder = "$HOME/cosmin"
 if [[ -d $folder ]]; then
-  echo "folder was created"
+  if mkdir "$HOME/cosmin"; then
+    echo "created directory"
 else
-  mkdir -p $HOME/cosmin
-  echo "new folder created"
-fi
+  echo "could not create directory"
+  exit 1
+  fi
