@@ -1,6 +1,6 @@
 #!/bin/sh
 folder = "$HOME/cosmin"
-if [[ -d $cosmin ]]; then
+if [[ -d $folder ]]; then
   echo "folder was created"
 else
   mkdir -p $HOME/cosmin
