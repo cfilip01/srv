@@ -1,5 +1,5 @@
 #!/bin/sh
-folder = cosmin
+folder = "$HOME/cosmin"
 if [[ -d $cosmin ]]; then
   echo "folder was created"
 else
